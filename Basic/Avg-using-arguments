@@ -1,1 +1,17 @@
+//write a function to find average of a set of passed as arguments
+package Chaudhary;
+
+public class Average {
+    static int avg(int...arr){
+        int result =0;
+        for(int a:arr){
+            result += a;
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("The average of this number is :"+avg(1,2,3,4,5)/5);
+    }
+}
 
